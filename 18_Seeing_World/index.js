@@ -9,26 +9,17 @@
 // • Reverse the order of your list again. Print the list to show it’s back to its original order.
 // • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-
-
-let places: string[] = ["Paris", "New York", "Tokyo", "London", "Sydney"];
+let places = ["Paris", "New York", "Tokyo", "London", "Sydney"];
 console.log("Original Order: ", places);
-
-let alphabeticalOrder: string[] = places.slice().sort();
+let alphabeticalOrder = places.slice().sort();
 console.log("Alphabetical Order: ", alphabeticalOrder);
-
 console.log("Original Order: ", places);
-
-let reverseAlphabeticalOrder: string[] = places.slice().sort().reverse();
+let reverseAlphabeticalOrder = places.slice().sort().reverse();
 console.log("Reverse Alphabetical Order: ", reverseAlphabeticalOrder);
-
 console.log("Original Order: ", places);
-
-let reverseOrder: string[] = places.reverse();
+let reverseOrder = places.reverse();
 console.log("Reverse Order: ", reverseOrder);
-
 console.log("Original Order: ", places.reverse());
-
 console.log("Alphabetical Order: ", places.sort());
-
 console.log("Reverse Alphabetical Order: ", places.reverse());
+export {};
